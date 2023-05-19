@@ -1,0 +1,149 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+background-image:url(imgs/img01.jpeg);
+background-size:cover ;
+
+}
+.continair{
+    margin: 20px 20px;
+    padding: 10px;
+}
+nav a{
+    color:#fff;
+}
+nav .continair{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+a{
+ text-decoration: none;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    margin-left:30px ;
+    padding-bottom: 10px;
+    
+}
+ul li:hover{
+    border-bottom: 2px solid rgba(0,255,255,0.7);
+    transition: .5s;
+}
+
+table{
+    width: 90%;
+    background-color: #010a1e;
+    opacity: 0.8;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+            1px 2px 4px 0px rgba(0,255,255,0.7),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 16px 0px rgba(0,255,255,0.7);
+    
+} 
+.row_1{
+    border-bottom: 3px solid #fff;
+    color:#fff;
+}
+tr{
+    display: grid; 
+    grid-template-columns: 5% 15% 20% 20% 20% 20%;
+    padding: 15px 0;
+    border-bottom: 1px solid #fff;
+    color:#aaa;
+    text-align: center;
+}
+ td button{
+   border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+td .delet{
+    background: #f14384;
+    
+}
+td .Edit:hover{
+    background: #f480c6;
+    transition: .5s;
+}
+td .Edit{
+    background-color: #7400e6;
+}
+td .delet:hover{
+    background-color: #9e52ea;
+    transition: .5s;
+}
+.add_new{
+    background-color: transparent;
+    border: 2.5px solid #16a6aa;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 60px;
+    margin: 30px 80px;
+    font-size: 16px;
+}
+.add_new:hover{
+    background:#16a6aa;
+    transition: .5s;
+}
+.add_new span{
+    font-weight: bold;
+    margin-left: 5px;
+}
+.add_new a{
+    color: #fff;
+}
+/* Start the create page */
+form{
+    background-color: #010a1e;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 450px;
+    width: 35%;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 2px 0px rgba(0,255,255,0.7),
+            1px 2px 4px 0px rgba(0,255,255,0.7),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 16px 0px rgba(0,255,255,0.7);
+
+}
+input{
+    height: 10%;
+    margin: 0 30px ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #6076dc;
+    outline: none;
+}
+input[type="submit"]{
+    background-color: #f14384;
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: #f480c6;
+    transition: .5s;
+}
+input[name="cancel"]{
+    background: #7400e6;
+    border: none;
+}
+input[name="cancel"]:hover{
+    background:#9e52ea;
+    transition: .5s;
+}
+form h1{
+    color: rgba(0,255,255,0.7);
+    text-align: center;
+}
